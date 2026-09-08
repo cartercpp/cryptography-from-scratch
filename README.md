@@ -17,37 +17,23 @@ Companion indexes: [ml-from-scratch](https://github.com/cartercpp/ml-from-scratc
 
 ### Hashing
 - [Hash Algorithms](https://github.com/cartercpp/hash-algorithms)
+- [SHA-256](https://github.com/cartercpp/performant-sha-256)
 - [MD5 and RIPEMD-160](https://github.com/cartercpp/md5-and-ripemd160)
-- [Performant SHA-256](https://github.com/cartercpp/performant-sha-256)
-- [SHA Console](https://github.com/cartercpp/sha-console)
-- [SHA-256 Microservice](https://github.com/cartercpp/sha256-microservice)
-- [Bitcoin Hashing](https://github.com/cartercpp/bitcoin-hashing)
-- [Simple Hashcash](https://github.com/cartercpp/simple-hashcash)
-- [Random Using SHA-256](https://github.com/cartercpp/random-using-sha256)
-- [Monte Carlo Hash Cracking](https://github.com/cartercpp/monte-carlo-hash-cracking)
+- [Hashcash](https://github.com/cartercpp/simple-hashcash)
 
 ### Encoding
 - [Constexpr Base64](https://github.com/cartercpp/constexpr-base-64)
 
-### Services
-- [Cryptography Microservice](https://github.com/cartercpp/cryptography-microservice)
-- [Crypto Display File](https://github.com/cartercpp/crypto-display-file)
-
 ### Bitcoin
-- [Blockchain Demo](https://github.com/cartercpp/blockchain-demo)
-- [Blockchain Type](https://github.com/cartercpp/blockchain-type)
+- [Blockchain](https://github.com/cartercpp/blockchain-type)
 - [BTC Miner](https://github.com/cartercpp/btc-miner)
-- [BTC Utilities](https://github.com/cartercpp/btc-utilities)
-- [BTC Utility Library](https://github.com/cartercpp/btc-utility-library)
-- [BTC Bits to Difficulty](https://github.com/cartercpp/btc-bits-to-difficulty)
-- [BTC Conversion Rate Calculator](https://github.com/cartercpp/btc-conversion-rate-calculator)
-- [Verify Bitcoin Block](https://github.com/cartercpp/verify-bitcoin-block)
+- [BTC Utilities](https://github.com/cartercpp/btc-utility-library)
 
 ### Ethereum
-- [Simple ETH Utilities](https://github.com/cartercpp/simple-eth-utilities)
-- [ETH Address Generator](https://github.com/cartercpp/eth-address-generator)
+- [ETH Utilities](https://github.com/cartercpp/simple-eth-utilities)
 
 ## Notes
 
 - Implementations are standalone C++ projects (typically C++20/C++23).
 - This repo is an index. The code lives in the linked repositories.
+- Near-duplicate wrappers (consoles, microservices, one-off SHA/BTC demos) are omitted in favor of the strongest implementation of each idea.
